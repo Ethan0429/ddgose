@@ -1,7 +1,9 @@
 # generate discordpy boilerplate
 
+import constants as c
 import discord
 from discord.ext import commands
+
 
 # create bot with full intents
 bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
@@ -13,6 +15,5 @@ bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
 async def on_ready():
     print('Ready to stonk!')
 
-
 # run bot
-bot.run('token')
+bot.run(c.BOT_TOKEN)

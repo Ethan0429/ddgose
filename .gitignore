@@ -127,4 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Poetry
 pyproject.toml
+
+# VSCode
+.vscode/
