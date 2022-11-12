@@ -1,2 +1,2 @@
 # ddgose
-Stock exchange network for DGG orbiters
+DDG Orbiter Stock Exchange - Stock exchange network for DGG orbiters
