@@ -1,0 +1,9 @@
+.vscode/
+.gitignore
+.git/
+LICENSE
+poetry.lock
+README.md
+__pycache__/
+Dockerfile
+.dockerignore

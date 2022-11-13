@@ -14,6 +14,10 @@ def start():
         print('____________________________________________________________')
         print('Ready to stonk!')
 
+    @bot.command()
+    async def ping(ctx):
+        await ctx.send('pong')
+
     # run bot
     bot.run(c.BOT_TOKEN)
 
